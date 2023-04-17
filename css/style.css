@@ -7,7 +7,6 @@
 .container {
     width: 1050px;
     height: 800px;
-    /* background-color: red; */
     margin: auto;
 }
 
@@ -41,7 +40,7 @@ span { color: #75bdd5;
     ma
 }
 
-.image-tim-lee, .yellow-mark, ul, table {
+.image-tim-lee, .yellow-mark, ul, table, .description, .image-footer-monitor {
    margin-top: 20px;
    
 }
@@ -72,4 +71,31 @@ th {
 
 .row-light-blue{
     background-color: #b5e7fa;
+}
+
+.image-footer-graf {
+    margin-top: 10px;
+}
+
+
+.tittle-lorem-ipsum{
+    position: relative;
+}
+
+.image-monitor {
+    position: absolute;
+    top: 30px; 
+    left: 15px;
+}
+
+.image-graf {
+    position: absolute;
+    top: 255px; 
+    left: 15px;
+    
+}
+
+.image-monitor, .image-graf {
+    color: white;
+    font-size: 0.9em;
 }
