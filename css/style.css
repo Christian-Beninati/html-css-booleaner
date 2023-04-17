@@ -6,7 +6,7 @@
 .container {
     width: 1000px;
     height: 800px;
-    background-color: red;
+    /* background-color: red; */
     margin: auto;
 }
 
@@ -17,3 +17,7 @@
     background-size: contain;
 }
 
+.logo-header {
+    height: 80px;
+    width: 200px;
+}
