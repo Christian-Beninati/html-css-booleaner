@@ -1,6 +1,7 @@
 *{
    box-sizing: border-box;
    margin: 0;
+   padding: 0;
 }
 
 .container {
@@ -40,8 +41,16 @@ span { color: #75bdd5;
     ma
 }
 
-.image-tim-lee {
+.image-tim-lee, article, ul {
    margin-top: 20px;
    
 }
 
+mark {
+    background-color: yellow;
+
+}
+
+.list-lorem {
+    list-style-position: inside;
+}
