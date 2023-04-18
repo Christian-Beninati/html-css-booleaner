@@ -14,12 +14,17 @@
     height: 80px;
     background-color: rgb(36, 120, 255);
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: contain; 
+    position: relative;
 }
 
 .logo-header {
     height: 80px;
-    width: 200px;
+    width: 100%;
+    margin-left: 200px;
+    position: absolute;
+    top: 2px;
+    right: 380px;
 }
 
 .tittle {
