@@ -6,7 +6,6 @@
 
 .container {
     width: 1050px;
-    height: 800px;
     margin: auto;
 }
 
@@ -14,17 +13,14 @@
     height: 80px;
     background-color: rgb(36, 120, 255);
     background-image: url(../img/pattern.png);
-    background-size: contain; 
-    position: relative;
+    background-size: 262px; 
+    line-height: 80px;
 }
 
 .logo-header {
-    height: 80px;
-    width: 100%;
-    margin-left: 200px;
-    position: absolute;
-    top: 2px;
-    right: 380px;
+    height: 60px;
+    width: auto;
+    vertical-align: middle;
 }
 
 .tittle {
@@ -36,11 +32,20 @@
     color: rgba(158, 155, 155, 1)
 }
 
-span { color: #75bdd5;
-    
+a{
+    text-decoration: none;
+    color: #32b1e8;
 }
 
-.year, .photo-description  {
+address {
+    font-style: normal;
+}
+
+.text-gray {
+    color: #8492a2;
+}
+
+.text-small  {
     font-size: 0.7em;
     ma
 }
