@@ -28,7 +28,7 @@
     margin-top: 0.8em;
 }
 
-.description {
+.description, .tittle-footer {
     color: rgba(158, 155, 155, 1)
 }
 
@@ -83,7 +83,39 @@ th {
     background-color: #b5e7fa;
 }
 
-.image-footer-graf {
+.title-footer{
+    padding: 20px 0;
+}
+
+.related-article {
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+     background-image: url(../img/graph.jpg);
+}
+
+.related-article-title {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* .image-footer-graf {
     margin-top: 10px;
 }
 
@@ -107,5 +139,5 @@ th {
 
 .image-monitor, .image-graf {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.9em; */
 }
